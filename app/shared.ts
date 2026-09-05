@@ -1,5 +1,5 @@
 import {useEffect,useRef,useState} from 'react';
-import seedData from '../public/club.json';
+import seedData from './seed.json';
 import {type Week,type Settings} from './model';
 import {same,sharedUrl} from './github';
 export type Data={version:1;revision?:number;weeks:Week[];draft:Week|null;settings:Settings};
@@ -16,4 +16,5 @@ export function useShared(){
  useEffect(()=>{let d=initial(),b=initial();try{const stored=JSON.parse(localStorage.getItem(key)||'null');if(stored?.data?.version===1&&stored?.base?.version===1&&stored.data.weeks?.length){d=stored.data;b=stored.base}}catch{}current.current=d;baseline.current=b;setData(d);setBase(b);void refresh();const interval=setInterval(()=>void refresh(),60000);const focus=()=>void refresh();window.addEventListener('focus',focus);return()=>{clearInterval(interval);window.removeEventListener('focus',focus)}},[]);
  return {data,base,commit,status,refresh,incoming,adopt};
 }
+
 

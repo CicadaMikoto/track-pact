@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "revision": 2,
+  "weeks": [
+    {
+      "id": "neon-shrine",
+      "number": 1,
+      "title": "NEON SHRINE",
+      "deadline": "2026-09-13",
+      "locked": true,
+      "fields": {
+        "bpm": "124",
+        "key": "A Dorian",
+        "style": "Leftfield electro / dub-techno",
+        "sample": "One field recording of a mechanical sound",
+        "technique": "Make the same recording both percussion and a sustained / tonal element",
+        "tracks": "10",
+        "instrumentation": "Max one synth plugin or hardware synth",
+        "arrangement": "At least one 16-bar section with no kick",
+        "length": "2:30–4:30",
+        "forbidden": "No additional restrictions",
+        "bonus": "Hide one sound the other participant would recognize as an inside joke"
+      },
+      "submissions": {
+        "tripp": {
+          "status": "Not Started",
+          "title": "",
+          "notes": "",
+          "link": "",
+          "file": ""
+        },
+        "may": {
+          "status": "Not Started",
+          "title": "",
+          "notes": "",
+          "link": "",
+          "file": ""
+        }
+      },
+      "reactions": {}
+    }
+  ],
+  "settings": {
+    "min": 60,
+    "max": 180,
+    "range": false,
+    "excluded": "",
+    "pools": {
+      "style": [
+        {
+          "value": "Leftfield electro / dub-techno",
+          "weight": 1
+        },
+        {
+          "value": "Ambient / downtempo",
+          "weight": 1
+        },
+        {
+          "value": "Broken beat / future garage",
+          "weight": 1
+        },
+        {
+          "value": "Jungle / drum & bass",
+          "weight": 1
+        },
+        {
+          "value": "House / deep house",
+          "weight": 1
+        },
+        {
+          "value": "Experimental hip-hop",
+          "weight": 1
+        },
+        {
+          "value": "Synthwave",
+          "weight": 1
+        }
+      ],
+      "root": [
+        {
+          "value": "C",
+          "weight": 1
+        },
+        {
+          "value": "C♯",
+          "weight": 1
+        },
+        {
+          "value": "D",
+          "weight": 1
+        },
+        {
+          "value": "E♭",
+          "weight": 1
+        },
+        {
+          "value": "E",
+          "weight": 1
+        },
+        {
+          "value": "F",
+          "weight": 1
+        },
+        {
+          "value": "F♯",
+          "weight": 1
+        },
+        {
+          "value": "G",
+          "weight": 1
+        },
+        {
+          "value": "A♭",
+          "weight": 1
+        },
+        {
+          "value": "A",
+          "weight": 1
+        },
+        {
+          "value": "B♭",
+          "weight": 1
+        },
+        {
+          "value": "B",
+          "weight": 1
+        }
+      ],
+      "mode": [
+        {
+          "value": "Minor",
+          "weight": 1
+        },
+        {
+          "value": "Dorian",
+          "weight": 1
+        },
+        {
+          "value": "Phrygian",
+          "weight": 1
+        },
+        {
+          "value": "Major",
+          "weight": 1
+        },
+        {
+          "value": "Lydian",
+          "weight": 1
+        },
+        {
+          "value": "Mixolydian",
+          "weight": 1
+        }
+      ],
+      "sample": [
+        {
+          "value": "One field recording of a mechanical sound",
+          "weight": 1
+        },
+        {
+          "value": "Record a kitchen object",
+          "weight": 1
+        },
+        {
+          "value": "Record water in motion",
+          "weight": 1
+        },
+        {
+          "value": "Record a door, latch, or hinge",
+          "weight": 1
+        },
+        {
+          "value": "Record a short spoken phrase",
+          "weight": 1
+        },
+        {
+          "value": "Record footsteps on an unusual surface",
+          "weight": 1
+        }
+      ],
+      "technique": [
+        {
+          "value": "Make the same recording both percussion and a sustained / tonal element",
+          "weight": 1
+        },
+        {
+          "value": "Resample the source three times; use the final generation",
+          "weight": 1
+        },
+        {
+          "value": "Build a playable instrument from your source recording",
+          "weight": 1
+        },
+        {
+          "value": "Use the source forward and reversed in a call-and-response",
+          "weight": 1
+        }
+      ],
+      "instrumentation": [
+        {
+          "value": "Max one synth plugin or hardware synth",
+          "weight": 1
+        },
+        {
+          "value": "Samples only; no synth instruments",
+          "weight": 1
+        },
+        {
+          "value": "Max two synth instruments",
+          "weight": 1
+        }
+      ],
+      "arrangement": [
+        {
+          "value": "At least one 16-bar section with no kick",
+          "weight": 1
+        },
+        {
+          "value": "Begin with texture; introduce the main groove after 16 bars",
+          "weight": 1
+        },
+        {
+          "value": "Bring the opening motif back in a different form",
+          "weight": 1
+        },
+        {
+          "value": "Include an 8-bar section with only two audible parts",
+          "weight": 1
+        }
+      ],
+      "tracks": [
+        {
+          "value": "8",
+          "weight": 1
+        },
+        {
+          "value": "10",
+          "weight": 1
+        },
+        {
+          "value": "12",
+          "weight": 1
+        }
+      ],
+      "length": [
+        {
+          "value": "2:30–4:30",
+          "weight": 1
+        },
+        {
+          "value": "2:00–3:30",
+          "weight": 1
+        },
+        {
+          "value": "3:00–5:00",
+          "weight": 1
+        }
+      ],
+      "forbidden": [
+        {
+          "value": "No additional restrictions",
+          "weight": 1
+        },
+        {
+          "value": "No premade drum loops",
+          "weight": 1
+        },
+        {
+          "value": "No crash cymbals",
+          "weight": 1
+        },
+        {
+          "value": "No riser presets",
+          "weight": 1
+        }
+      ],
+      "bonus": [
+        {
+          "value": "Hide one sound the other participant would recognize as an inside joke",
+          "weight": 1
+        },
+        {
+          "value": "Let a tiny accidental sound become the hook",
+          "weight": 1
+        },
+        {
+          "value": "Hide a rhythmic Morse-code message",
+          "weight": 1
+        },
+        {
+          "value": "Include one second of complete silence",
+          "weight": 1
+        },
+        {
+          "value": "Make the last sound connect to the first",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "appliedRequests": [
+    "3b741997-cdb0-4018-b3af-45f0616f2315"
+  ]
+}
