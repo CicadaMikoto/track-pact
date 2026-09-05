@@ -1,0 +1,4 @@
+import assert from 'node:assert/strict';
+import {generate,reroll,seed,defaultSettings,genres,availableTempos} from './app/model.ts';
+for(let i=0;i<1500;i++){const s=structuredClone(defaultSettings);s.range=i%2===0;s.excluded='124,125,126';const w=generate(s,2,'2026-09-20');const g=genres.find(g=>g.name===w.fields.style);assert(g);for(const n of w.fields.bpm.split('–').map(Number))assert(availableTempos(s,g).includes(n));assert(g.modes.some(m=>w.fields.key.endsWith(m)));assert(Number(w.fields.tracks)>=8);const r=reroll(w,'sample',s);assert.equal(r.fields.bpm,w.fields.bpm);assert.equal(r.fields.key,w.fields.key)}
+const w=seed();assert.equal(reroll(w,'style',defaultSettings),w);assert.equal(w.fields.bpm,'124');assert.equal(w.fields.key,'A Dorian');const bad=structuredClone(defaultSettings);bad.min=200;assert.throws(()=>generate(bad,2,'2026-09-20'));console.log('1500 coherent generations, isolated rerolls, seed, lock guard, and impossible-pool rejection passed.');

@@ -1,0 +1,17 @@
+# Local files
+node_modules/
+dist/
+.env*
+!.env.example
+*.tsbuildinfo
+.vite/
+.wrangler/
+# Keep large music files in a separate private archive.
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.als
+*.alp
+*.zip
