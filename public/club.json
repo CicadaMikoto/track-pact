@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "revision": 1,
+  "revision": 2,
   "weeks": [
     {
       "id": "neon-shrine",
@@ -297,5 +297,8 @@
         }
       ]
     }
-  }
+  },
+  "appliedRequests": [
+    "3b741997-cdb0-4018-b3af-45f0616f2315"
+  ]
 }
