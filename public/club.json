@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "revision": 2,
+  "revision": 3,
   "weeks": [
     {
       "id": "neon-shrine",
       "number": 1,
       "title": "NEON SHRINE",
-      "deadline": "2026-09-13",
+      "deadline": "2026-09-19",
       "locked": true,
       "fields": {
         "bpm": "124",
@@ -299,6 +299,7 @@
     }
   },
   "appliedRequests": [
-    "3b741997-cdb0-4018-b3af-45f0616f2315"
+    "3b741997-cdb0-4018-b3af-45f0616f2315",
+    "dd016358-1179-40ae-9fd0-0b6bfbc01898"
   ]
 }
